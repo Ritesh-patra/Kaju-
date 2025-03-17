@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achal Industries</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .circle-container {
+            aspect-ratio: 1;
+            border-radius: 50%;
+            border: 2px solid #ddd;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-gray-800 px-6 text-white py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-red-600">CASHEW PAIN</h1>
+            <div class="flex items-center gap-4">
+               
+                <button class="text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+<!-- Hero Section -->
+<section class="w-full h-screen relative overflow-hidden">
+    <!-- Background Image -->
+    <img 
+        class="w-full h-full object-cover absolute inset-0 z-0" 
+        src="https://i.pinimg.com/736x/43/88/8c/43888cdbbc47d1ccf03c3a41985f6c25.jpg" 
+        alt="Cashew Image" 
+    />
+
+    <!-- Overlay for Better Text Readability -->
+    <div class="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
+
+    <!-- Content Container -->
+    <div class="relative z-20 flex flex-col items-center justify-center h-full text-center px-4">
+        <!-- Headline -->
+        <h1 class="text-5xl md:text-6xl font-bold text-white mb-4">
+            Premium Quality Cashews
+        </h1>
+
+        <!-- Subheadline -->
+        <p class="text-xl md:text-2xl text-white mb-8 max-w-2xl">
+            Experience the finest cashews, sourced directly from the best farms and crafted with care for your health and taste.
+        </p>
+
+        <!-- Call-to-Action Button -->
+        <a 
+        href="#products" 
+        class="bg-accent text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-opacity-90 transition duration-300 shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
+    >
+        Explore Our Products
+    </a>
+    </div>
+</section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto  py-8">
+       
+
+        <!-- Products Grid - Column on mobile, Row on laptop -->
+        <div class="grid grid-cols-1 px-6 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <!-- Cashew Kernels -->
+            <div class="bg-yellow-200 rounded-lg text-center p-6 md:p-8 lg:p-10">
+                <div class="circle-container overflow-hidden rounded-full bg-white mx-auto mb-4 w-36 h-36 md:w-52 md:h-52 flex items-center justify-center">
+                    <img class="w-full h-full object-cover" src="https://i.pinimg.com/736x/36/df/7e/36df7e7d3973b1dd33bff191fabc6bb4.jpg" alt="">
+                </div>
+                <h2 class="text-xl font-semibold">Cashew Kernels</h2>
+            </div>
+
+            <!-- Dried Fruits -->
+            <div class="bg-orange-200 p-8 rounded-lg text-center">
+                <div class="circle-container overflow-hidden rounded-full bg-white mx-auto mb-4 w-36 h-36 md:w-52 md:h-52 flex items-center justify-center">
+                    <img class="w-full h-full object-cover" src="https://i.pinimg.com/474x/b6/eb/2b/b6eb2b185ce6d8852766efadd5ac30d5.jpg" alt="">
+                </div>
+                <h2 class="text-xl font-semibold">Masala Cashew</h2>
+            </div>
+
+            <!-- Spices -->
+            <div class="bg-yellow-300 p-8 rounded-lg text-center">
+                <div class="circle-container overflow-hidden rounded-full bg-white mx-auto mb-4 w-36 h-36 md:w-52 md:h-52 flex items-center justify-center">
+                    <img class="w-full h-full object-cover" src="https://i.pinimg.com/736x/bd/4a/f8/bd4af86848fb48a669f06cfe6073e216.jpg" alt="">
+                </div>
+                <h2 class="text-xl font-semibold">Healthy Cashew</h2>
+            </div>
+        </div>
+
+        <!-- Certification Section -->
+        <div class="bg-gray-800 text-white px-6 mt-12 p-8 rounded-lg">
+            <h2 class="text-yellow-500 text-xl font-bold mb-4">CERTIFICATION</h2>
+            <ul class="space-y-2 text-yellow-500">
+                <li>OUR CERTIFICATION For, Achal Industries Private Limited</li>
+                <li>FSMS - ISO 22000:2005</li>
+                <li>Certified Organic by IMO, India</li>
+                <li>Certified</li>
+            </ul>
+        </div>
+
+        <!-- Ownership Section -->
+        <div class="mt-12 px-6">
+            <h2 class="text-3xl font-extrabold mb-10 text-center text-white">Ownership</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <!-- Owner 1 -->
+                <div class="text-center p-8 bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-32 h-32 bg-gray-500 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-5xl font-bold shadow-md">
+                        GSP
+                    </div>
+                    <p class="font-semibold text-xl text-white">Sri. G. Sadananda Prabhu</p>
+                    <p class="text-gray-300">Chairman</p>
+                </div>
+        
+                <!-- Owner 2 -->
+                <div class="text-center p-8 bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="w-32 h-32 bg-gray-500 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-5xl font-bold shadow-md">
+                        GP
+                    </div>
+                    <p class="font-semibold text-xl text-white">Giridhar Prabhu</p>
+                    <p class="text-gray-300">Managing Director</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why Choose Us Section -->
+        <div class="mt-12 px-6">
+            <h2 class="text-xl font-bold mb-4">Why Choose Us</h2>
+            <div class="space-y-6">
+                <div>
+                    <h3 class="font-semibold text-lg mb-2">Our Organic Project</h3>
+                    <p class="text-gray-600">
+                        ACHAL manages an Organic Small Holders Project in Goa and Karnataka (since EC 834/2014 & EEC Regulation 889/2008 regulation) and NOP (USDA regulation). This enables it to offer Organic cashews to European and Indian markets.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-2">Quality</h3>
+                    <p class="text-gray-600">
+                        Our customers are assured that all products offered are operating under the Food Safety Management System. Quality standards are strictly monitored.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-2">Export capabilities</h3>
+                    <p class="text-gray-600">
+                        The unit entered the Export field in the year 1994 and its products have been exported to various countries across the globe including Americas, the EEC Countries, Middle East and Japan.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="min-h-screen mt-10 bg-gray-800 text-white flex flex-col items-center justify-center  py-12">
+            <!-- Main Content -->
+            <div class="max-w-4xl w-full mx-auto text-center">
+                <!-- Header -->
+                <div class="space-y-4 mb-12">
+                    <h1 class="text-4xl font-light">Get In Touch</h1>
+                    <div class="w-12 h-1 bg-accent mx-auto"></div>
+                </div>
+    
+                <!-- Sections Container -->
+                <div class="flex  flex-col sm:flex-row lg:space-x-12 space-y-12 lg:space-y-0">
+                    <!-- Visit Us Section -->
+                    <div class="flex-1 space-y-2">
+                        <svg class="w-8 h-8 text-accent mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                        </svg>
+                        <h2 class="text-2xl">VISIT US</h2>
+                        <p class="text-accent">Administrative Address:</p>
+                        <div class="space-y-1">
+                            <p>Achal Group Of Industries, 190,</p>
+                            <p>Industrial Area, Baikampady,</p>
+                            <p>Mangalore – 575 011</p>
+                            <p>Karnataka, India</p>
+                        </div>
+                    </div>
+    
+                    <!-- Call Us Section -->
+                    <div class="flex-1 space-y-2">
+                        <svg class="w-8 h-8 text-accent mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+                        <h2 class="text-2xl">CALL US</h2>
+                        <p class="text-accent">P.h. 0824 – 2408187</p>
+                        <p class="text-accent">Fax 0824-2408487</p>
+                    </div>
+    
+                    <!-- Message Us Section -->
+                    <div class="flex-1 space-y-2">
+                        <svg class="w-8 h-8 text-accent mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        <h2 class="text-2xl">MESSAGE US</h2>
+                        <p class="text-accent">eMail: customercare@achalcashew.com</p>
+                    </div>
+                </div>
+    
+                <!-- Social Media Icons -->
+                <div class="flex justify-center space-x-6 pt-12">
+                    <a href="#" class="text-white hover:text-accent">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M18.77,7.46H14.5v-1.9c0-.9.6-1.1,1-1.1h3V.5h-4.33C10.24.5,9.5,3.44,9.5,5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4Z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-white hover:text-accent">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12,2.2c3.2,0,3.6,0,4.9,0.1c3.3,0.1,4.8,1.7,4.9,4.9c0.1,1.3,0.1,1.6,0.1,4.8c0,3.2,0,3.6-0.1,4.8c-0.1,3.2-1.7,4.8-4.9,4.9c-1.3,0.1-1.6,0.1-4.9,0.1c-3.2,0-3.6,0-4.8-0.1c-3.3-0.1-4.8-1.7-4.9-4.9c-0.1-1.3-0.1-1.6-0.1-4.8c0-3.2,0-3.6,0.1-4.8c0.1-3.2,1.7-4.8,4.9-4.9C8.4,2.2,8.8,2.2,12,2.2z M12,0C8.7,0,8.3,0,7.1,0.1c-4.4,0.2-6.8,2.6-7,7C0,8.3,0,8.7,0,12s0,3.7,0.1,4.9c0.2,4.4,2.6,6.8,7,7C8.3,24,8.7,24,12,24s3.7,0,4.9-0.1c4.4-0.2,6.8-2.6,7-7C24,15.7,24,15.3,24,12s0-3.7-0.1-4.9c-0.2-4.4-2.6-6.8-7-7C15.7,0,15.3,0,12,0z M12,5.8c-3.4,0-6.2,2.8-6.2,6.2s2.8,6.2,6.2,6.2s6.2-2.8,6.2-6.2S15.4,5.8,12,5.8z M12,16c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4S14.2,16,12,16z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Footer -->
+            <div class="mt-16 text-center space-y-4">
+                <p class="text-lg">Visitors count : <span class="text-accent">253164</span></p>
+                <div class="space-x-2">
+                    <a href="#" class="hover:text-accent">Terms & conditions</a>
+                    <span>|</span>
+                    <a href="#" class="hover:text-accent">Privacy policy</a>
+                </div>
+                <p>Copyright © 2025. All rights reserved</p>
+                <p class="text-sm">
+                    Designed by <a href="#" class="text-blue-400 hover:text-blue-300">Bolas Intelli Solutions Pvt Ltd.</a>
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
